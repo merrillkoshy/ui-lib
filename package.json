@@ -1,4 +1,12 @@
 {
     "name": "@merrillkoshy/ui-lib",
-    "version": "1.0.1"
+    "version": "1.0.3",
+    "main": "lib/index.ts",
+    "types": "lib/index.d.ts",
+    "scripts":{
+        "build" : "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.4"
     }
+}
